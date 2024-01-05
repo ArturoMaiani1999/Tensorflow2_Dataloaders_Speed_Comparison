@@ -24,6 +24,7 @@ In TensorFlow, creating a data loader typically involves using the `tf.data.Data
    dataset = tf.data.Dataset.from_tensor_slices((features, labels))
    ```
 try it using the script `Dataloader_from_slices.py`
+
 2. **From TensorFlow Records (TFRecord):**
    ```python
 
